@@ -1,3 +1,20 @@
+
+.fas, .fab{
+  background-color: rgba(91, 192, 222, 0.77);
+  font-size: 36px;
+    height: 60px;
+    width: 60px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgba(91, 192, 222, 0.77);
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    line-height: unset !important;
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 .clearfix {
   *zoom: 1;
@@ -29,7 +46,8 @@
 }
 body {
   padding-top: 80px;
-  color: #34495e;
+/*  color: #34495e;*/
+  color: #000000;
   background: #f5f5f5;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -43,6 +61,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: #08c008;
 }
 a {
   color: #34495e;
@@ -286,7 +305,7 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #4acaa8;
+  background-color: #8ad81c;
 }
 .wet-asphalt a:not(.btn) {
   color: fff;/*#d9534f;*/
@@ -295,7 +314,7 @@ body > section {
   color: fff;/*#d9534f;*/
 }
 .midnight-blue {
-  background-color: #4acaa8;
+  background-color: #8ad81c;
 }
 .concrete {
   background-color: #95a5a6;
@@ -736,7 +755,7 @@ ul.tag-cloud li {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #4acaa8;
+  background-color: #8ad81c;
 }
 .navbar-inverse .navbar-nav .dropdown-menu {
   background-color: #2c3e50;
